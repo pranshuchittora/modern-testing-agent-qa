@@ -7,6 +7,7 @@ Web 端自动化测试工具和框架
 | [Playwright](https://playwright.dev/) | TypeScript/JS/Python/Java/.NET | ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/playwright?style=social) | 现代 Web 应用测试 |
 | [Cypress](https://www.cypress.io/) | JavaScript/TypeScript | ![GitHub Repo stars](https://img.shields.io/github/stars/cypress-io/cypress?style=social) | 前端开发者友好的测试框架 |
 | [Selenium](https://www.selenium.dev/) | 多语言 | ![GitHub Repo stars](https://img.shields.io/github/stores/SeleniumHQ/selenium?style=social) | 传统 Web 自动化 |
+| [Agent QA](https://github.com/vostride/agent-qa) | TypeScript | ![GitHub Repo stars](https://img.shields.io/github/stars/vostride/agent-qa?style=social) | 基于 YAML 和自然语言步骤的 Web 回归测试 |
 
 ---
 
@@ -119,6 +120,47 @@ Web 端自动化测试工具和框架
 **标签**
 
 `#web-testing` `#e2e` `#enterprise` `#legacy` `#cross-platform`
+
+---
+
+### Agent QA
+
+> **官方文档**: [Agent QA 文档](https://vostride.com/docs/agent-qa)
+
+**基本信息**
+
+| 属性 | 说明 |
+|-----|------|
+| **维护者** | Vostride |
+| **主要语言** | TypeScript |
+| **许可证** | [FSL-1.1-ALv2](https://github.com/vostride/agent-qa/blob/main/LICENSE.md) |
+| **GitHub Stars** | ![GitHub Repo stars](https://img.shields.io/github/stars/vostride/agent-qa?style=social) |
+| **活跃度** | ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vostride/agent-qa) |
+| **费用** | 软件目前免费；配置的模型、浏览器和设备服务可能另行收费。 |
+
+**特性**
+
+- 使用 YAML 定义测试，步骤可用自然语言描述。
+
+- 通过 CLI 或本地 dashboard 执行和查看测试。
+
+- 提供本地 MCP 服务，供编码 agent 编写和执行测试。
+
+**适用场景**
+
+- Web 应用用户流程的回归测试。
+
+- 编码 agent 编写、运行和检查 YAML 测试的工作流程。
+
+**学习资源**
+
+- [官方文档](https://vostride.com/docs/agent-qa)
+
+- [MCP 文档](https://vostride.com/docs/agent-qa/mcp)
+
+**标签**
+
+`#web-testing` `#e2e-testing` `#typescript` `#ai` `#mcp`
 
 ---
 
